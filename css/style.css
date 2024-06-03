@@ -1,0 +1,19 @@
+body {
+	background-color: rgba(20, 55, 158, 1);
+	background-image: radial-gradient(
+		circle,
+		rgb(10, 37, 121) 4%,
+		rgb(30, 41, 77) 100%
+	);
+}
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.child {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 69px;
+	color: aliceblue;
+}
